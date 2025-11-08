@@ -1,8 +1,8 @@
-const math = require("./math")
+const maths = require("./math")
 
-console.log(math.add(5,7))
+console.log(maths.add(5,7))
 
-const value = math.weiredFunction();
+const value = maths.weiredFunction();
 console.log(value);
 
  
