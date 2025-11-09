@@ -1,8 +1,7 @@
-const maths = require("./math")
+import { add, weiredFunction } from './math.js';
+console.log(add(5,7))
 
-console.log(maths.add(5,7))
-
-const value = maths.weiredFunction();
+const value = weiredFunction();
 console.log(value);
 
  
